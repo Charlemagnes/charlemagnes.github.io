@@ -1,0 +1,212 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-synthesis: antialiased;
+}
+
+.main{
+    min-height: 35vh;
+    padding-top: 10px;
+    padding-right: 0;
+    position: relative;
+    background-image: url(img/bg3.jpg);
+    background-attachment: initial;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    max-width: 100%;
+}
+
+small{
+    color: #797979;
+}
+
+.nueva-merch{
+    min-height: 50vh;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: repeating-linear-gradient(135deg, #ffffff,
+    #ffffff 45px,
+    #edfff3 45px,
+    #edfff3 80px);
+}
+
+#productos-nuevos{
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-top: 30px;
+}
+
+.container{
+    padding-bottom: 30px;
+    
+}
+
+.card{
+    text-align: center;
+}
+
+.row{
+    padding-bottom: 33px;
+}
+
+.tabcompra{
+    background: #ebebeb;
+    margin-bottom: 55px;
+    box-sizing: border-box;
+}
+
+.tabcompra thead th {
+    padding: 5px 25px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.tabcompra .product-th{
+    text-align: left;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.container-fluid #checkoutrow2{
+    background-color: #f1f1f1;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    height: 200px;
+}
+
+.botones-compra #btn-comprando{
+    background: #b09d81;
+    padding: 21px 30px;
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.botones-compra #btn-comprando a{
+    color: white;
+    text-decoration: none;
+}
+
+.botones-compra #btn-comprando:hover{
+    background: #47ce64;
+}
+
+.botones-compra #btn-carro{
+    background: #f1f1f1;
+    padding: 21px 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.botones-compra #btn-carro a{
+    color: black;
+    text-decoration: none;
+}
+
+.botones-compra #btn-carro:hover{
+    background: #a0a0a0;
+}
+
+.envio{
+    background-color: #ebebeb;
+    padding: 50px 50px 50px 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cupon-cupon{
+    width: 240px;
+    height: 52px;
+}
+
+.btn-cupon{
+    background: #b09d81;
+    color: white;
+    padding-top: 2px;
+    padding-right: 5px;
+    height: 52px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.envio-opcion{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.envio-opcion .sc-item{
+    padding-bottom: 10px;
+}
+
+.compra-factura{
+    background: #fff;
+    color: #8d8d8d;
+    list-style: none;
+    padding: 15px 7px 77px;
+    font-family: Verdana;
+
+}
+
+.compra-factura li{
+    padding: 15px 36px;
+    margin-bottom: 15px;
+}
+
+.compra-factura li.total{
+    background-color: #f2f2f2f2;
+    color: #797979;
+    border-bottom: 1px solid black;
+}
+
+.btn-checkout{
+    background: #b09d81;
+    color: white;
+    margin-top: -15px;
+    padding-right: 5px;
+    height: 52px;
+    width: 541px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.ayoo{
+    position: relative;
+    text-align: center;
+}
+
+.ayoo span{
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        left: -3px;
+        bottom: -3px;
+        padding-top: 1px;
+        border-radius: 50px;
+        background: rgba(100, 100, 100, 0.9);
+        font-size: 12px;
+        color: #fff;
+}
