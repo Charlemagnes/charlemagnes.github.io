@@ -1,0 +1,164 @@
+html,
+body {
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+    font-synthesis: antialiased;
+    scroll-behavior: smooth;
+}
+
+h1{
+    padding-bottom: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.navbar{
+    color: #e8ce45!important;
+}
+
+.navbar > .navbar-brand{
+    color: #e8ce45!important;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+a:link{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.main{
+    min-height: 100vh;
+    padding-top: 30px;
+    margin-top: 45px;
+    padding-right: 0;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(../img/header.jpg);
+    background-color: gray;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card{
+    min-height: 27.5rem;
+}
+.about-me{
+    min-height: 35vh;
+    padding: 50px 0px;
+    background-color: #6d94a0;
+}
+
+.about-light{
+    color: white;
+    font-weight: 450;
+    text-align: center;
+}
+
+.education{
+    min-height: 35vh;
+    padding: 28px 0px;
+    background-color: #e8ce45;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact{
+        min-height: 35vh;
+        padding: 28px 0px;
+        background-color: #6d94a0;
+        text-align: center;
+        font-weight: 600;
+}
+
+.footer{
+    min-height: 35vh;
+    padding: 28px 0px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card-text{
+    font-weight: 350;
+    color: #555;
+    min-height: 122px;
+}
+
+.skills{
+        min-height: 35vh;
+        padding: 28px 0px;
+        background-color: #F8F3F4;
+        text-align: center;
+        font-weight: 600;
+}
+
+.portfolio{
+    min-height: 35vh;
+    padding: 28px 0px;
+    background-color: #e8ce45;
+    text-align: center;
+    font-weight: 600;
+}
+
+#col-left{
+    border-right: 2px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.education p, small{
+    float: left;
+    margin-right: 40px;
+    line-height: 0.9em;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.education h4{
+    float:right;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.footer p{
+    font-weight: 300;
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+hr { 
+    margin-top: -0.1em;
+    margin-bottom: 0.5em;
+    margin-left: 20em;
+    margin-right: 20em;
+    border-width: 2px;
+  } 
+
+.caja1{
+    margin-top: 15px;
+    margin-bottom: 8px;
+    max-width: 1440px;
+    padding: 18px 32px;
+}
+
+.caja1 h6{
+    padding-top: 5px;
+}
+
+#fa-icon{
+    padding-right: 8px;
+    color: #99ca7b;
+    font-size: 25px;
+}
