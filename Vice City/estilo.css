@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     perspective: 0px;
+    max-width: 1423px;
 }
 
 .footer{
@@ -31,7 +32,7 @@ Header{
     min-height: 70vh;
     padding-right: 0;
     position: relative;
-    width: 100vw;
+    width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/headerbg.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -45,7 +46,6 @@ Header{
     background-color: rgba(178,139,192,0.5);
     position: fixed;
     top: 0px;
-    width: 100%;
     z-index: 2;
 }
 
@@ -67,7 +67,6 @@ Header{
 .topimg{
     position: fixed;
     top: 90%;
-    right: -450px;
     z-index: 2;
 }
 
