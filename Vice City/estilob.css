@@ -186,13 +186,12 @@ html{
 }
 
 .headimg{
-    padding: 5vh;
-    padding-left: 30vw;
+    padding: 5vh 30vw;
     filter: drop-shadow(0px 0px 10px rgba(244,175,194,1));
 }
 
 #inicio {
-    min-height: 830px;
+    height: 90vh;
     background-color: #1b87bd;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/headerbg.jpg);
     background-attachment: fixed;
@@ -202,8 +201,7 @@ html{
 
 #acerca {
     padding-top: 5vh;
-    padding-bottom: 15px;
-    min-height: 550px;
+    height: 75vh;
     background-color: #d8879b;
     /*background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/1.jpg);*/
     background-attachment: fixed;
@@ -212,8 +210,7 @@ html{
   
 #trama {
     padding-top: 5vh;
-    padding-bottom: 15px;
-    min-height: 635px;
+    height: 80vh;
     background-color:	#f4afc2;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/1.jpg);
     background-attachment: fixed;
@@ -224,8 +221,7 @@ html{
 
 #personajes {
     padding-top: 5vh;
-    padding-bottom: 15px;
-    min-height: 1070.5px;
+    height: 127vh;
     background-color: #167caf;
     background-attachment: fixed;
     background-position: center;
@@ -236,8 +232,7 @@ html{
   
 #autos {
     padding-top: 5vh;
-    padding-bottom: 15px;
-    min-height: 775px;
+    height: 100vh;
     background-color:#b28bc0;
     background-attachment: fixed;
     background-position: center;

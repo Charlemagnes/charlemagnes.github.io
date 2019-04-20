@@ -1,9 +1,23 @@
 html,
 body {
-	height: 100%;
+    height: 100%;
+    width: 100%;
 	-webkit-font-smoothing: antialiased;
     font-synthesis: antialiased;
     scroll-behavior: smooth;
+}
+
+@font-face{
+    font-family: "black";
+    src: url(../fonts/Blackout\ Midnight.ttf);
+    font-weight: bolder;
+    font-style: normal;
+}
+
+#navbar-logo{
+    font-family: 'black';
+    font-size: 22px;
+    letter-spacing: 0.125em;
 }
 
 h1{
@@ -161,4 +175,10 @@ hr {
     padding-right: 8px;
     color: #99ca7b;
     font-size: 25px;
+}
+
+@media only screen and (max-width: 500px){
+    #headername{
+        font-size: 4rem;
+    }
 }

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link href="css/styleindex.css" type="text/css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container-fluid">
             <div class="navbar header py-0">
-                <a class="navbar-brand py-0" href="#inicio">Carlos Sierra</a>
+                <a class="navbar-brand py-0" href="#inicio" id="navbar-logo">Carlos Sierra</a>
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item" style="padding-right: 10px;"><a class="nav-link py-0" href="#inicio">Inicio</a></li>
@@ -32,8 +32,8 @@
     <!--header-->
     <div class="main" id="inicio">
         <div class="container h-100">
-            <p class="text-top float-left" style="color: white; font-size: 18px; font-weight: 350; margin: 40px -90px; text-shadow: 2px 2px 2px black">tlf: 0416-5604330 <br> correo: calberto.sierra97@gmail.com</p>
-            <h1 class="display-1 text-center" style="color: #fafafa; padding-top: 250px; text-shadow: 2px 2px 15px black; text-align: center">Carlos Sierra, </br> Developer</h1>
+            <p class="text-top float-left" style="color: white; font-size: 18px; font-weight: 350; margin: 40px -50px; text-shadow: 2px 2px 2px black">tlf: 0416-5604330 <br> correo: calberto.sierra97@gmail.com</p>
+            <h1 class="display-1 text-center" style="color: #fafafa; padding-top: 250px; text-shadow: 2px 2px 15px black; text-align: center; width: 100%;" id="headername">Carlos Sierra, </br> Developer</h1>
        </div>
     </div>
     
@@ -51,7 +51,7 @@
         <h1>Educación</h1>
         <hr>
         <div class="container" style="padding-top: 10px;">
-          <div class="row" styñe="padding-top: 10px">
+          <div class="row" style="padding-top: 10px">
             <div class="col-lg-6" id="col-left">
               <h4>2015-Actualidad</h4>
             </div>
@@ -101,42 +101,34 @@
         <div class="container w-100" style="padding-top: 10px;">
           <div class="row" style="background-color: #e6e3d7;">
             <div class="col-lg-12">
-              <h5 style="text-align: center;"><i class="fas fa-language" id="fa-icon"></i>Idiomas</h5>
+              <h5 style="text-align: center;"><i class="fa fa-language" id="fa-icon"></i>Idiomas</h5>
             </div>
           </div>
-          <div class="row" style="background-color: #e6e3d7">
+          <div class="row" style="background-color: #e6e3d7; padding-bottom: 15px;">
             <div class="col-lg-4">
               <h6>Español</h6>
-            </div>
-            <div class="col-lg-4">
-              <h6>Inglés</h6>
-            </div>
-            <div class="col-lg-4">
-              <h6>Francés</h6>
-            </div>
-          </div>
-          <div class="row" style="background-color: #e6e3d7; padding: 12px 0;">
-            <div class="col-lg-4">
               <div class="progress">
                 <div class="progress-bar bg-info" style="width: 100%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
               </div>
             </div>
             <div class="col-lg-4">
-                <div class="progress">
-                    <div class="progress-bar bg-info" style="width: 100%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
-                  </div>
-                </div>
+              <h6>Inglés</h6>
+              <div class="progress">
+                <div class="progress-bar bg-info" style="width: 100%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+              </div>
+            </div>
             <div class="col-lg-4">
-                <div class="progress">
-                    <div class="progress-bar bg-info" style="width: 10%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">10%</div>
-                  </div>
-                </div>
+              <h6>Francés</h6>
+              <div class="progress">
+                <div class="progress-bar bg-info" style="width: 10%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">10%</div>
+              </div>
+            </div>
           </div>
           <!--programacion-->
           <div class="row" style="border-left: 1px solid #e6e3d7; border-right: 1px solid #e6e3d7">
             <div class="col-lg-6">
               <div class="caja1">
-                <h5><i class="fas fa-laptop-code"  id="fa-icon"></i>Lenguajes de programación</h5>
+                <h5><i class="fa fa-laptop"  id="fa-icon"></i>Lenguajes de programación</h5>
                 <h6>HTML5</h6>
                 <div class="progress">
                   <div class="progress-bar bg-info" style="width: 100%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
@@ -163,7 +155,7 @@
                 </div>
               </div>
               <div class="caja1">
-                <h5><i class="fab fa-windows" id="fa-icon" ></i>Microsoft Office Suite</h5>
+                <h5><i class="fa fa-windows" id="fa-icon" ></i>Microsoft Office Suite</h5>
                 <h6>Word</h6>
                 <div class="progress">
                   <div class="progress-bar bg-info" style="width: 100%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
@@ -185,7 +177,7 @@
             </div>
             <div class="col-lg-6">
               <div class="caja1" style="min-height: 356px;">
-                <h5><i class="fas fa-hammer" id="fa-icon" ></i>Frameworks y librerías</h5>
+                <h5><i class="fa fa-cubes" id="fa-icon" ></i>Frameworks y librerías</h5>
                 <h6>Bootstrap 4</h6>
                 <div class="progress">
                   <div class="progress-bar bg-info" style="width: 90%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
@@ -208,7 +200,7 @@
                 </div>
               </div>
               <div class="caja1">
-                  <h5><i class="fab fa-adobe" id="fa-icon" ></i>Adobe Creative Suite</h5>
+                  <h5><i class="fa fa-photo" id="fa-icon" ></i>Adobe Creative Suite</h5>
                   <h6>Photoshop</h6>
                   <div class="progress">
                     <div class="progress-bar bg-info" style="width: 75%" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
@@ -237,7 +229,7 @@
           
           <div class="row" style="background-color: #e6e3d7;">
             <div class="col-lg-4">
-              <h6><i class="fas fa-headphones-alt" style="font-size: 25px; padding-right: 8px"></i>Audacity</h6>
+              <h6><i class="fa fa-headphones" style="font-size: 25px; padding-right: 8px"></i>Audacity</h6>
             </div>
             <div class="col-lg-4">
               <h6><img src="img/blender-icon.svg" style="width: 36px; height: 36px; padding-right: 8px"> Blender </h6>
@@ -255,7 +247,7 @@
         <div container="container h-100" style="padding: 10px 20px;">
             <div class="row">
               <div class="col-lg-3">
-                <div class="card" style="text-align: center; min-height: 27.5rem;">
+                <div class="card" style="text-align: center; min-height: 29rem;">
                   <img class="card-img-top" src="img/vicecitydemo.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                       <h4 class="card-title">Vice City Fan Page</h4>
@@ -266,7 +258,7 @@
                     </div></div>
               </div>
               <div class="col-lg-3">
-                <div class="card">
+                <div class="card" style="text-align: center; min-height: 29rem;">
                   <img class="card-img-top" src="img/witcherdemo.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                       <h4 class="card-title">The Witcher Fan Page</h4>
@@ -277,7 +269,7 @@
                     </div></div>
               </div>
               <div class="col-lg-3">
-                <div class="card">
+                <div class="card" style="text-align: center; min-height: 29rem;">
                   <img class="card-img-top" src="img/capydemo.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                       <h4 class="card-title">Café Chigüire </h4>
@@ -289,7 +281,7 @@
                 </div>
               </div>
               <div class="col-lg-3">
-                <div class="card">
+                <div class="card" style="text-align: center; min-height: 29rem;">
                   <img class="card-img-top" src="img/carritodemo.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                       <h4 class="card-title">Solocamisas - catalogue</h4>
@@ -306,7 +298,7 @@
     <!--contacto-->
     <div class="contact about-light" id="contact">
       <h1>Contacto</h1><hr>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfr8kPAN_f-7-Te9LOWCECGhu0Los8EETyucMBQDl3gD3y-4w/viewform?embedded=true" width="640" height="975" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScw_PHgglre5r22-qDl9pAvkozdbUzvdQhHNy9NkktvN9ENHw/viewform?embedded=true" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
 
     <!--footer-->
@@ -316,14 +308,14 @@
           <p>Diseñador y desarrollador web.</p>
         <div class="row">
           <div class="col-lg-6">
-            <p><i class="fas fa-address-card" style="padding-right: 8px;"></i> Maracaibo, Zulia, Venezuela</p>
-            <p><i class="fas fa-envelope-open" style="padding-right: 8px;"></i> calberto.sierra97@gmail.com</p>
-            <p><i class="fas fa-phone-square" style="padding-right: 8px;"></i> +58-416-5604330</p>
+            <p><i class="fa fa-home" style="padding-right: 8px;"></i> Maracaibo, Zulia, Venezuela</p>
+            <p><i class="fa fa-mail-forward" style="padding-right: 8px;"></i> calberto.sierra97@gmail.com</p>
+            <p><i class="fa fa-phone" style="padding-right: 8px;"></i> +58-416-5604330</p>
           </div>
           <div class="col-lg-6">
-            <p><a href="https://www.linkedin.com/in/carlos-sierra-92620b183/"><i class="fab fa-linkedin" style="padding-right: 8px;"></i>LinkedIn</a></p>
-            <p><a href="https://twitter.com/alberto90545079/"><i class="fab fa-twitter" style="padding-right: 8px;"></i>Twitter</a></p>
-            <p><a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram" style="padding-right: 8px;"></i>Instagram</a></p>
+            <p><a href="https://www.linkedin.com/in/carlos-sierra-92620b183/"><i class="fa fa-linkedin" style="padding-right: 8px;"></i>LinkedIn</a></p>
+            <p><a href="https://twitter.com/alberto90545079/"><i class="fa fa-twitter" style="padding-right: 8px;"></i>Twitter</a></p>
+            <p><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" style="padding-right: 8px;"></i>Instagram</a></p>
           </div>
         </div>
         <div class="copyright text-center py-3">
