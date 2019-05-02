@@ -14,6 +14,21 @@ body {
     font-style: normal;
 }
 
+#headernote{
+    position: relative;
+    top: 100px;
+    color: white;
+    font-size: 18px;
+    font-weight: 350;
+    text-shadow: 2px 2px 2px black;
+    border: 1px solid rgba(52, 58, 64, 0.6);
+    background-color: rgba(52, 58, 64, 0.6);
+    box-shadow: 2px 2px 15px black;
+    text-align: center;
+    margin-inline-end: 300px;
+    margin-inline-start: 300px;
+}
+
 #navbar-logo{
     font-family: 'black';
     font-size: 22px;
@@ -124,7 +139,7 @@ a:link{
     font-weight: 600;
 }
 
-#col-left{
+#rowstart{
     border-right: 2px solid #ddd;
     margin-bottom: 10px;
 }
@@ -179,6 +194,44 @@ hr {
 
 @media only screen and (max-width: 500px){
     #headername{
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    #rowstart{
+        text-align: center;
+        border: none;
+    }
+
+    #rowend{
+        border-bottom: 2px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+    .education p, small{
+        float: none;
+        margin-right: 40px;
+        line-height: 0.9em;
+    }
+    .education h4{
+        float: none;
+        margin-right: 20px;
+        font-size: 18px;
+    }
+
+    #headernote{
+        position: relative;
+        top: 100px;
+        color: white;
+        font-size: 18px;
+        font-weight: 350;
+        text-shadow: 2px 2px 2px black;
+        border: 1px solid rgba(52, 58, 64, 0.6);
+        background-color: rgba(52, 58, 64, 0.6);
+        box-shadow: 2px 2px 15px black;
+        text-align: center;
+        margin-inline-end: initial;
+        margin-inline-start: initial;
     }
 }
