@@ -21,8 +21,8 @@ body {
     font-size: 18px;
     font-weight: 350;
     text-shadow: 2px 2px 2px black;
-    border: 1px solid rgba(52, 58, 64, 0.6);
-    background-color: rgba(52, 58, 64, 0.6);
+    border: 1px solid rgba(79, 88, 97, 0.6);
+    background-color: rgba(86, 96, 105, 0.6);
     box-shadow: 2px 2px 15px black;
     text-align: center;
     margin-inline-end: 300px;
@@ -206,18 +206,21 @@ hr {
 
     #rowend{
         border-bottom: 2px solid #ddd;
-        margin-bottom: 10px;
+        padding-bottom: 10px;
     }
 
     .education p, small{
         float: none;
-        margin-right: 40px;
+        text-align: center;
         line-height: 0.9em;
+        margin: 0 15px;
+        font-size: 14px;
     }
+
     .education h4{
         float: none;
-        margin-right: 20px;
         font-size: 18px;
+        margin: 0 15px;
     }
 
     #headernote{
