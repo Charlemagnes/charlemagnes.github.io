@@ -131,7 +131,7 @@ html{
 
 .ad-left #left{
     position: relative;
-    background: url(img/AD2.png) no-repeat;
+    background: url(img/necflis.png) no-repeat;
     z-index: 9999;
     width: 120px;
     height: 600px;
@@ -155,7 +155,7 @@ html{
 
 .ad-right #right{
     position: relative;
-    background: url(img/AD1.png) no-repeat;
+    background: url(img/herramientas.png) no-repeat;
     z-index: 9999;
     width: 120px;
     height: 600px;
