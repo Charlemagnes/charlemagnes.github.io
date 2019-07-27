@@ -114,7 +114,7 @@ html{
     background-color: #a88165;
 }
 
-#ad-left{
+.ad-left{
     display: block;
     position: fixed;
     left: 0px;
@@ -129,7 +129,7 @@ html{
     
 }
 
-#left{
+.left{
     position: relative;
     background: url(img/necflis.png) no-repeat;
     z-index: 9999;
@@ -139,7 +139,7 @@ html{
     left: 5px;
 }
 
-#ad-right{
+.ad-right{
     display: block;
     position: fixed;
     right: 0px;
@@ -153,7 +153,7 @@ html{
     z-index: 9999;
 }
 
-#right{
+.right{
     position: relative;
     background: url(img/herramientas.png) no-repeat;
     z-index: 9999;
